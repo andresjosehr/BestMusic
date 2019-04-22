@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Best Music</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	  <link rel="stylesheet" type="text/css" href="css/animations.css">
+	  <link rel="icon" href="imagenes/fav.ico" type="image/x-icon" />
+	  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	  <script data-require="jquery@2.1.1" data-semver="1.9.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>		
+	</head>
+	<body>
+
+		<!-- loader -->
+		<div class="capasuperior" id="capasuperior">
+		<div id="loader" class="visible">
+		    <div class="note">
+		      <div class="note1  note-child">&#9833;</div>
+		      <div class="note2  note-child">&#9835;</div>
+		      <div class="note3  note-child">&#9834;</div>
+		      <div class="note4  note-child">&#9836;</div>
+		      <div class="note5  note-child">&#9833;</div>
+		      <div class="note6  note-child">&#9835;</div>
+		      <div class="note7  note-child">&#9834;</div>
+		      <div class="note8  note-child">&#9836;</div>
+		      <div class="note9  note-child">&#9833;</div>
+		      <div class="note10 note-child">&#9835;</div>
+		      <div class="note11 note-child">&#9834;</div>
+		      <div class="note12 note-child">&#9836;</div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Fin de loader -->
+
+
+		<!-- Menu de Navegacion -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="object" class="slideUp">  
+			<div class="container">
+			  	<a class="navbar-brand" href="./" ><img src="imagenes/logo.png" height="10%"></a>
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  	</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		     		<ul class="navbar-nav mr-auto">
+		       			<li class="nav-item">
+		       				<a class="nav-link" href="#uno">Inicio<span class="sr-only">(current)</span></a>
+		        		</li>
+		      			<li class="nav-item">
+		        			<a class="nav-link" href="#dos">Top 100</a>
+		      			</li>
+		      			<li class="nav-item">
+		        			<a class="nav-link" href="#tres">Contactanos</a>
+		      			</li>
+		 			</ul>
+					<form class="form-inline my-2 my-lg-0">
+		     			<input class="form-control mr-sm-2" type="text" placeholder="Buscar ..." aria-label="Buscar ...">
+		      			<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">BUSCAR</button>
+		    		</form>
+		 		</div>
+		 	</div>
+		</nav>
+		<!-- Fin del menu de navegacion -->
+
+		<!-- Deslizante de imagenes -->
+		<div class="slider-container" name="uno" id="uno">
+		<div class="slider-control left inactive"></div>
+		<div class="slider-control right"></div>
+		<ul class="slider-pagi"></ul>
+			<div class="slider">
+		    <div class="slide slide-0 active">
+		      <div class="slide__bg"></div>
+		      <div class="slide__content">
+		        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+		          <path class="slide__overlay-path" d="M0,0 110,0 350,405 0,405" />
+		        </svg>
+		        <div class="slide__text">
+		          <h2 class="slide__text-heading">Best Music</h2>
+		          <p>Las mejores 100 canciones de iTunes aqui y ahora</p>
+		          <a class="slide__text-link">Ver top</a>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="slide slide-1 ">
+		      <div class="slide__bg"></div>
+		      <div class="slide__content">
+		        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+		          <path class="slide__overlay-path" d="M0,0 110,0 350,405 0,405" />
+		        </svg>
+		        <div class="slide__text">
+		          <h2 class="slide__text-heading">Siempre<br> al dia</h2>
+		          <p>Mantenemos nuestro top actualizado las 24 horas al dia, los 7 dias a la semana</p>
+		          <a class="slide__text-link">Nosotros</a>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="slide slide-2">
+		      <div class="slide__bg"></div>
+		      <div class="slide__content">
+		        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+		          <path class="slide__overlay-path" d="M0,0 110,0 350,405 0,405" />
+		        </svg>
+		        <div class="slide__text">
+		          <h2 class="slide__text-heading">Informacion destacada</h2>
+		          <p >Te mostramos informacion detallada de cada una de las canciones del top</p>
+		          <a class="slide__text-link">Ver top</a>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="slide slide-3">
+		      <div class="slide__bg"></div>
+		      <div class="slide__content">
+		        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+		          <path class="slide__overlay-path" d="M0,0 110,0 350,405 0,405" />
+		        </svg>
+		        <div class="slide__text">
+		          <h2 class="slide__text-heading">Atencion Personalizada</h2>
+		          <p>Nos gusta conversar, contactanos y dejanos tus sugerencias</p>
+		          <a class="slide__text-link">Contactar</a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- Fin del deslizante de imagenes -->
+
+		<!-- Top 100 de Canciones -->
+		<section class="container py-4" name="dos" id="dos">
+	        <div class="row">
+	            <div class="col-md-12">
+	                <ul id="tabsJustified" class="nav nav-tabs">
+	                    <li class="nav-item"><a href="" style="font-size: 148%" data-target="#toop10" data-toggle="tab" class="nav-link small text-uppercase active">Top 10</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top20()" style="font-size: 148%" data-target="#toop20" data-toggle="tab" class="nav-link small text-uppercase">Top 20</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top30()" style="font-size: 148%" data-target="#toop30" data-toggle="tab" class="nav-link small text-uppercase">Top 30</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top40()"style="font-size: 148%" data-target="#toop40" data-toggle="tab" class="nav-link small text-uppercase">Top 40</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top50()" style="font-size: 148%" data-target="#toop50" data-toggle="tab" class="nav-link small text-uppercase">Top 50</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top60()" style="font-size: 148%" data-target="#toop60" data-toggle="tab" class="nav-link small text-uppercase">Top 60</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top70()" style="font-size: 148%" data-target="#toop70" data-toggle="tab" class="nav-link small text-uppercase">Top 70</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top80()" style="font-size: 148%" data-target="#toop80" data-toggle="tab" class="nav-link small text-uppercase">Top 80</a></li>
+	                    <li class="nav-item"><a href="" onclick="Top90()" style="font-size: 148%" data-target="#toop90" data-toggle="tab" class="nav-link small text-uppercase">Top 90</a></li>
+	                    <li class="nav-item"><a href="" onclick="TopUltimo()" style="font-size: 148%" data-target="#toop100" data-toggle="tab" class="nav-link small text-uppercase">Top 100</a></li>
+	                </ul>
+	                <br>
+	                <div id="tabsJustifiedContent" class="tab-content">
+	                    <div id="toop10" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top10">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->					
+							</div>
+	                    </div>
+	                    <div id="toop20" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top20">		
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                    <div id="toop30" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top30">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                    <div id="toop40" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top40">		
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->						
+							</div>
+	                    </div>
+	                    <div id="toop50" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top50">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                    <div id="toop60" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top60">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                    <div id="toop70" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top70">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                    <div id="toop80" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top80">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                    <div id="toop90" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top90">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                    <div id="toop100" class="tab-pane fade active show">
+	                        <div class="list-group top" id="Top100">			
+									<!-- Aca van los elementos generados por ReactJS en js/react.js -->							
+							</div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+		<!-- Fin top 100 canciones -->
+		<br><br><br><br>
+	    <!-- Formulario de contacto -->
+	    <section name="tres" id="tres">
+	    		<div class="card">
+	  				<div class="card-body">
+	  					<br><div align="center" style="font-size: 25px">Nuestro personal administrativo esta entusiasmado por conocer tus opiniones, ¡Contactanos!</div><br><br><br>
+			    		<div class="row" id="contacto">    			
+			    			<div class="col-md-6">
+			    				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251660.52944842467!2d-63.33090332211152!3d9.74947826850259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3340ccdd67a481%3A0x498e5fe3065f3956!2sMatur%C3%ADn+6201%2C+Monagas!5e0!3m2!1ses!2sve!4v1532347456796" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen></iframe>
+			    			</div>
+			    			<div class="col-md-6">
+			    				<div class="card">
+			  						<div class="card-body">
+			    						<form>
+											<div class="form-group">
+												<label>Nombre</label>
+												<input type="text" id="nombre" class="form-control" id="nombreid" aria-describedby="emailHelp" placeholder="Escribe tu nombre">
+										 	</div>
+										  	<div class="form-group has-warning">
+										    	<label>email</label>
+										    	<input type="email" id="email" class="form-control" id="emailid" placeholder="email">
+										  	</div>
+										  	<div class="form-group">
+										    	<label>Mensaje</label>
+										    	<textarea class="form-control" id="mensaje" id="mensajeid" rows="3" placeholder="Escribe tu mensaje"></textarea>
+										  	</div>
+											<a onclick="Enviar()" href="#" class="btn btn-primary">Enviar</a>
+										</form>
+									</div>
+								</div>
+			    			</div>
+			    		</div><br><br>
+	    			</div>
+	    		</div>
+	    </section>
+		<!-- Fin del formulario de contacto -->	
+		<div class="footer-bottom">
+		    <div class="container">
+		      	<div class="row" >
+			         <p align="center" class="footer-content" >&copy;<b> Jose Andres 2018</b> - Maturin, Venezuela.  Todos los derechos reservados</p>
+		     	</div>
+		    </div>
+		 </div>
+
+		<!-- Validacion de formulario de contacto -->
+			
+		<script type="text/javascript">
+
+
+
+			//Validacion de formulario de contacto
+			function Enviar() {
+
+				var nombre = document.getElementById("nombre").value;
+				var email = document.getElementById("email").value;
+				var mensaje = document.getElementById("mensaje").value;
+
+				if (nombre=="") {
+					swal("Error", "Debes escribir tu nombre", "warning");
+					document.getElementById("nombre").focus();
+				} else {
+					if (email=="") {
+						swal("Error", "Debes escribir un email", "warning");
+						document.getElementById("email").focus();
+					} else {
+						if (mensaje=="") {
+							swal("Error", "Debes escribir un mensaje", "warning");
+							document.getElementById("mensaje").focus();
+						}	else {
+								swal("success", "Gracias por contactarnos", "success");
+								document.getElementById("nombre").value=""
+								document.getElementById("email").value=""
+								document.getElementById("mensaje").value=""
+							}
+					}
+				} 
+			}
+			//Fin de validacion de formulario de contacto
+
+			//Script de chat en linea
+			window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+			d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+			_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+			$.src="https://v2.zopim.com/?5sOkEH8MDp0nysqomB6cokxzfG0WzPQ2";z.t=+new Date;$.
+			type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+			//Fin de Script de chat en linea
+
+			//Funcion para desaparecer loader cuando la pagina haya cargado
+			window.onload = function() {
+				var loader= document.getElementById('capasuperior');
+				loader.style.display = "none";
+			}
+			//Fin de loader
+
+
+
+		</script>
+
+
+
+		<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+		<script  src="js/index.js"></script>
+		<script type="text/javascript" src="js/react-dist.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	</body>
+</html>
